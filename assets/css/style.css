@@ -26,6 +26,8 @@ body {
   color: #fff;
 }
 
+
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -477,9 +479,30 @@ header .navbar ul li a:hover {
 
 /* skills section starts */
 .skills {
-  min-height: 90vh;
+  min-height: 65rem;
   background: linear-gradient(to bottom,#000428 , #004e92);
-  padding-left: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-container{
+  padding-top: 3rem;
+  display: flex !important;
+  flex-direction: row;
+  gap: 5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skills div img{
+  height: 20rem;
+  width: 20rem;
+  border-radius: 2rem;
+}
+
+.skills div img:hover{
+  transform: scale(1.1);
 }
 
 .skills .card{
@@ -497,21 +520,14 @@ header .navbar ul li a:hover {
   border-radius: 20px;
 }
 
-
-.skills .card-holder1 > *{
-  display: inline-block;
+.skills  > *{
   margin-left: 7px;
 }
 
-.skills .card-holder2 > *{
+.skills  > *{
   display: inline-block;
   margin-left: 7px;
 }
-
-.skills .card-holder2{
-  margin-left: 20rem;
-}
-
 
 .skills .card-title{
   font-size: large;
@@ -526,7 +542,7 @@ header .navbar ul li a:hover {
   background: rgba(0, 0, 22, 0.4);
   color: #fff;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 3rem;
   width: 90%;
   margin: auto;
   margin-top: 2rem;
@@ -588,7 +604,7 @@ header .navbar ul li a:hover {
 /* education section starts */
 .education {
   background: #e5ecfb;
-  min-height: 80vh;
+  min-height: 55rem;
 }
 .education .qoute {
   font-size: 1.5rem;
