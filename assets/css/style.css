@@ -506,6 +506,11 @@ header .navbar ul li a:hover {
   align-items: center;
 }
 
+.skill-container-child img{
+  max-width: 180px;
+  height: 180px;
+}
+
 .skills div img{
   height: 20rem;
   width: 20rem;
